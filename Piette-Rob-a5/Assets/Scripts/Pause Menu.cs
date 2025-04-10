@@ -6,12 +6,7 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;
     public bool isPaused;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
+    // Start is called once before the first execution of Update after the MonoBehaviour is create
     // Update is called once per frame
     void Update()
     {
