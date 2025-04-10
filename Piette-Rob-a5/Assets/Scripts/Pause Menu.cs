@@ -1,4 +1,5 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
@@ -22,11 +23,13 @@ public class PauseMenu : MonoBehaviour
       if (isPaused)
       {
           ActivateMenu();
-      }
+          Time.timeScale = 0f;
+        }
       
       else 
       {
             DeactivateMenu();
+            Time.timeScale = 1f;
       }
     }
 
